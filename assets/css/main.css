@@ -473,13 +473,19 @@ h1 {
 
 @media screen and (max-width: 767px) {
     h1 {
-        font-size: 3.125rem;
+        font-size: 3.25rem;
     }
 }
 
 @media screen and (max-width: 575px) {
     h1 {
-        font-size: 3.125rem;
+        font-size: 3.25rem;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    h1 {
+        font-size: 3.25rem;
     }
 }
 
@@ -5047,6 +5053,10 @@ input[type=number] {
 
 /* ======================  Integrations Section End  ======================*/
 /* ======================  Faq Section Start  ====================== */
+.faq-section {
+    overflow: hidden;
+}
+
 .faq-section .faq-shape span {
     position: absolute;
     width: 268.353px;
@@ -5057,6 +5067,7 @@ input[type=number] {
     border-radius: 342.63px;
     -webkit-filter: blur(100px);
     filter: blur(100px);
+    z-index: -1;
 }
 
 .faq-section .faq-shape span:nth-child(1) {
