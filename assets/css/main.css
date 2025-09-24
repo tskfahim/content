@@ -4336,6 +4336,8 @@ input[type=number] {
 /* ======================  Process Section End  ======================*/
 /* ======================  Ai-template Section Start  ======================*/
 .ai-template-section {
+    position: relative;
+    z-index: 1;
     overflow: hidden;
 }
 
@@ -4354,6 +4356,7 @@ input[type=number] {
     filter: blur(100px);
     -webkit-transform: rotate(-46.779deg);
     transform: rotate(-46.779deg);
+    z-index: -1;
 }
 
 .ai-template-shape span:nth-child(1) {
