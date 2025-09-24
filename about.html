@@ -1,0 +1,1215 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title> Html Template</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- line awesome -->
+  <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <!-- Fancybox -->
+  <link rel="stylesheet" href="assets/css/fancybox.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="assets/css/select2.min.css">
+  <!-- Apexcharts -->
+  <link rel="stylesheet" href="assets/css/apexcharts.css">
+  <!-- Main css -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <!--==================== Preloader Start ====================-->
+<div id="preloader">
+    <div id="text">
+        <p>V</p>  
+        <p>i</p>
+        <p>s</p>
+        <p>e</p>
+        <p>r</p>
+        <p class="active">L</p>
+        <p class="active">A</p>
+        <p class="active">B</p> 
+
+    </div>
+</div>
+<!--==================== Preloader End ====================-->
+  <!--==================== Overlay Start ====================-->
+  <div class="body-overlay"></div>
+  <!--==================== Overlay End ====================-->
+
+  <!--==================== Sidebar Overlay End ====================-->
+  <div class="sidebar-overlay"></div>
+  <!--==================== Sidebar Overlay End ====================-->
+ 
+  <!-- ==================== Scroll to Top start ==================== -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+  <!-- ==================== Scroll to Top End Here ==================== -->
+<!--==========================   Header Start  ==========================-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-main">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo/logo.png" alt="logo" class="logo-img logo-black"> 
+            </a>
+            <div class="right-nav"> 
+                <ul class="header-login flex-align gap-3 d-none d-sm-flex">
+                    <li class="nav-item">
+                        <div class="dropdown-lang dropdown">
+                            <a href="#" class="language-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="flag" src="assets/images/language/us.png" alt="us">
+                                <span class="language-text">English</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><img class="flag" src="assets/images/language/us.png" alt="us"> English </a> </li>
+                                <li><a href="#"><img class="flag" src="assets/images/language/in.png" alt="in"> Hindi </a></li>
+                                <li><a href="#"><img class="flag" src="assets/images/language/bd.png" alt="bd"> Bangla </a></li>
+                            </ul>
+                        </div>
+                    </li> 
+                    <li class="header-login__item d-flex gap-2">
+                        <a href="login.html" class="btn btn--base"> 
+                            Sign up 
+                        </a>
+                    </li>             
+                </ul> 
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="index.html" class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="assets/images/logo/logo.png" alt="logo" class="logo-img">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="d-flex d-sm-none gap-4 pt-3 justify-content-center"> 
+                    <ul class="header-login flex-align gap-3">
+                        <li class="nav-item">
+                            <div class="dropdown-lang dropdown">
+                                <a href="#" class="language-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="flag" src="assets/images/language/us.png" alt="us">
+                                    <span class="language-text">English</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><img class="flag" src="assets/images/language/us.png" alt="us"> English </a> </li>
+                                    <li><a href="#"><img class="flag" src="assets/images/language/in.png" alt="in"> Hindi </a></li>
+                                    <li><a href="#"><img class="flag" src="assets/images/language/bd.png" alt="bd"> Bangla </a></li>
+                                </ul>
+                            </div>
+                        </li> 
+                        <li class="header-login__item d-flex gap-2">
+                            <a href="login.html" class="btn btn--base">
+                                <i class="fa-solid fa-user"></i>
+                                Login 
+                            </a>
+                        </li>
+                    </ul> 
+                </div> 
+                <div class="offcanvas-body align-items-center">
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="ai-template.html">AI template</a>
+                        </li>  
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--==========================  Header End  ==========================-->
+<main>
+    <!-- ==================== Breadcrumb Start Here ==================== -->
+<section class="breadcrumb py-120 bg-img" data-background-image="assets/images/banner/breadcrumb-bg.png">
+    <div class="container position-relative">
+        <div class="breadcrumb-shape">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="breadcrumb__wrapper">
+                    <h2 class="breadcrumb__title animate" data-direction="down"> Our Journey in AI-Powered Content Excellence</h2>
+                    <ul class="breadcrumb__list animate" data-direction="down">
+                        <li class="breadcrumb__item"><a href="index.html" class="breadcrumb__link"> Home</a> </li>
+                        <li class="breadcrumb__item">/</li>
+                        <li class="breadcrumb__item"> <span class="breadcrumb__item-text"> About </span> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Breadcrumb End Here ==================== -->  
+    <!-- ==========================  About Section Start  ========================== -->
+<section class="about-section my-120">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-xl-6">
+        <div class="about-image">
+          <img src="assets/images/about/1.png" alt="about" class="animate">
+          <img src="assets/images/about/2.png" alt="about" class="animate">
+          <img src="assets/images/about/3.png" alt="about" class="animate">
+          <img src="assets/images/about/4.png" alt="about" class="animate">
+          <svg xmlns="http://www.w3.org/2000/svg" width="110" height="107" viewBox="0 0 110 107" fill="none" class="animate" data-direction="right">
+            <path d="M175 19.5C175 39.7436 167.981 59.3609 155.138 75.0094C142.296 90.6579 124.425 101.369 104.57 105.319C84.7158 109.268 64.106 106.211 46.2528 96.6681C28.3995 87.1254 14.4074 71.6874 6.66054 52.9848C-1.08634 34.2822 -2.10868 13.472 3.76772 -5.8999C9.64412 -25.2718 22.0557 -42.0068 38.8876 -53.2536C55.7195 -64.5003 75.9304 -69.5629 96.0765 -67.5787C116.223 -65.5944 135.057 -56.6862 149.372 -42.3719L128.351 -21.3512C118.9 -30.8024 106.464 -36.6841 93.1627 -37.9942C79.8611 -39.3043 66.5168 -35.9617 55.4034 -28.536C44.29 -21.1102 36.0952 -10.0608 32.2153 2.72957C28.3354 15.52 29.0104 29.26 34.1253 41.6085C39.2402 53.9571 48.4786 64.15 60.2663 70.4507C72.054 76.7513 85.6617 78.7699 98.7708 76.1623C111.88 73.5547 123.679 66.4824 132.159 56.1504C140.638 45.8184 145.272 32.8659 145.272 19.5H175Z" fill="currentColor"></path>
+          </svg>
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="about-content ms-xxl-5">
+          <div class="section-title">
+            <span class="btn btn--base btn--section animate" data-direction="down">About us</span>
+            <h2 class="main-title animate" data-direction="down">Who we are?</h2>
+            <p class="sub-title animate" data-direction="down">Since 1998, we’ve been transforming digital growth with
+              AI-driven SEO content writing. </p>
+          </div>
+          <div class="row gy-4 mt-4 mb-5">
+            <div class="col-sm-6 animate" data-direction="down">
+              <div class="about-content__item">
+                <div class="d-flex align-items-center gap-3 mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                    <path d="M7.12003 14.5267C6.882 14.6663 6.74124 14.9323 6.75576 15.2138L7.07516 21.263C7.10753 21.8755 7.40676 22.427 7.89624 22.7763L11.5639 25.3932C11.9351 25.6581 12.4058 25.7093 12.8232 25.5303C13.2405 25.3513 13.5369 24.971 13.6162 24.513L14.4615 19.6324C14.4681 19.5944 14.4718 19.5564 14.4726 19.5187C14.4781 19.2678 14.3598 19.0278 14.1533 18.8853L7.87949 14.5549C7.65217 14.398 7.35811 14.3872 7.12003 14.5267Z" fill="currentColor"></path>
+                    <path d="M14.5373 7.22219C14.3913 7.46085 14.3889 7.76381 14.5311 8.00449L18.4555 14.6485C18.6041 14.9 18.8831 15.0373 19.1669 14.9986L23.9408 14.3455C24.3888 14.2842 24.7709 13.9962 24.9631 13.5749C25.0431 13.3997 25.0847 13.2132 25.0888 13.0268C25.0946 12.7652 25.0264 12.5036 24.8859 12.2738L22.5087 8.38588C22.1915 7.86701 21.6695 7.53478 21.0765 7.47446L15.2203 6.87799C14.9478 6.8502 14.6833 6.98353 14.5373 7.22219Z" fill="currentColor"></path>
+                    <path d="M20.2154 16.2507C20.5092 15.9613 20.653 15.544 20.5951 15.13C19.7464 9.05824 14.9864 4.16303 11.6037 2.26461C7.84764 0.15658 3.83267 -0.00735416 1.94656 0.0566943C1.30026 0.0786624 0.77398 0.596943 0.72403 1.26065C0.578368 3.19754 0.559597 7.33388 2.43894 11.2902C4.13139 14.8531 8.67107 19.9653 14.5258 21.107C14.925 21.1849 15.3363 21.0556 15.6302 20.7662L20.2154 16.2507Z" fill="#F1F1FB"></path>
+                    <path d="M1.11153 0.418004L17.9226 18.5085L20.2152 16.2507C20.5091 15.9613 20.6528 15.544 20.5949 15.13C19.7462 9.05825 14.9863 4.16304 11.6036 2.26462C7.84753 0.156589 3.83256 -0.00734471 1.94645 0.0567038C1.6233 0.0676888 1.33014 0.202762 1.11153 0.418004Z" fill="#D7D6FB"></path>
+                    <path d="M11.9159 8.24194C11.8949 9.19364 11.522 10.1371 10.8022 10.846C10.1049 11.5328 9.18981 11.8993 8.22564 11.8779C7.26148 11.8565 6.36354 11.4499 5.69734 10.733C4.32205 9.25306 4.37422 6.89569 5.81374 5.47805C6.51104 4.7913 7.4261 4.42489 8.39027 4.44624C9.35443 4.4676 10.2524 4.87418 10.9186 5.59112C11.6062 6.331 11.9369 7.29054 11.9159 8.24194Z" fill="#466288"></path>
+                    <path d="M14.5256 21.1071C14.9248 21.1849 15.3362 21.0556 15.6301 20.7662L20.2152 16.2508C20.5091 15.9613 20.6528 15.544 20.5949 15.13C20.4102 13.8088 20.0402 12.5435 19.5397 11.3524L10.9065 19.8545C12.0401 20.422 13.2517 20.8586 14.5256 21.1071Z" fill="#466288"></path>
+                    <path d="M20.4854 25.0584C20.4896 24.8683 20.4233 24.6765 20.2855 24.5283L17.9822 22.0497C17.7068 21.7532 17.2496 21.7431 16.9613 22.0271C16.6729 22.311 16.6625 22.7816 16.938 23.0781L19.2413 25.5566C19.5167 25.8531 19.9739 25.8632 20.2622 25.5792C20.4065 25.4372 20.4811 25.2486 20.4854 25.0584Z" fill="#FDB43A"></path>
+                    <path d="M19.1705 19.8513C18.8822 20.1353 18.8717 20.6058 19.1472 20.9023L23.5754 25.6675C23.8509 25.964 24.308 25.9741 24.5964 25.6902C24.7406 25.5482 24.8153 25.3595 24.8195 25.1693C24.8237 24.9791 24.7574 24.7874 24.6196 24.6392L20.1914 19.8739C19.9159 19.5775 19.4588 19.5673 19.1705 19.8513Z" fill="#FDB43A"></path>
+                    <path d="M21.3799 17.6756C21.0916 17.9595 21.0812 18.4301 21.3567 18.7266L23.6599 21.2051C23.9354 21.5016 24.3925 21.5117 24.6809 21.2277C24.825 21.0857 24.8998 20.8971 24.904 20.7069C24.9082 20.5168 24.8419 20.325 24.7041 20.1768L22.4009 17.6982C22.1254 17.4017 21.6683 17.3916 21.3799 17.6756Z" fill="#F57A21"></path>
+                    <path d="M24.5965 25.6901C24.7407 25.5481 24.8154 25.3595 24.8196 25.1693C24.8238 24.9791 24.7575 24.7873 24.6197 24.6391L20.1915 19.8739C19.9161 19.5775 19.4589 19.5673 19.1706 19.8513L24.5965 25.6901Z" fill="#F57A21"></path>
+                    <path d="M17.9227 18.5085L20.2153 16.2507C20.5091 15.9613 20.6528 15.544 20.595 15.13C20.4103 13.8088 20.0403 12.5434 19.5398 11.3524L15.2232 15.6034L17.9227 18.5085Z" fill="#354A67"></path>
+                    <path d="M10.8021 10.8461C11.5219 10.1372 11.8949 9.19365 11.9159 8.24195C11.9368 7.29055 11.606 6.33101 10.9185 5.59113C10.2523 4.87418 9.35436 4.46761 8.39019 4.44625C7.42603 4.42489 6.51096 4.79131 5.81367 5.47805L10.8021 10.8461Z" fill="#354A67"></path>
+                    <path d="M6.14314 8.11408C6.13049 8.68499 6.32894 9.26062 6.74155 9.70458C7.14127 10.1347 7.67999 10.3787 8.2585 10.3915C8.83702 10.4044 9.38601 10.1844 9.80439 9.77242C10.6681 8.92187 10.6995 7.50737 9.87424 6.6194C9.47446 6.18926 8.93574 5.94529 8.35723 5.93248C7.77872 5.91966 7.22972 6.13953 6.81134 6.55155C6.37953 6.97685 6.15579 7.54308 6.14314 8.11408Z" fill="currentColor"></path>
+                    <path d="M6.8113 6.55161L9.80435 9.77244C10.668 8.92188 10.6994 7.50738 9.87419 6.61946C9.47442 6.18932 8.9357 5.94535 8.35718 5.93254C7.77867 5.91972 7.22968 6.13955 6.8113 6.55161Z" fill="currentColor"></path>
+                  </svg>
+                  <h5 class="mb-0">Our Mission</h5>
+                </div>
+                <p>Our mission is to craft intelligent, optimized, and impactful content that helps businesses rank
+                  higher, reach wider audiences &amp; achieve lasting success online.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 animate" data-direction="down">
+              <div class="about-content__item">
+                <div class="d-flex align-items-center gap-3 mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24" fill="none">
+                    <path d="M13.7059 24C7.9306 24 2.97205 20.0305 0 15.1661C2.98259 10.2844 7.9306 6.33218 13.7059 6.33218C19.4813 6.33218 24.4398 10.3017 27.4119 15.1661C24.4293 20.0478 19.4813 24 13.7059 24Z" fill="#ECF2FF"></path>
+                    <path d="M27.4118 15.1661C24.4398 10.3016 19.4811 6.33218 13.7058 6.33218V24C19.4811 24 24.4292 20.0477 27.4118 15.1661Z" fill="#D9E5FF"></path>
+                    <path d="M13.706 20.7877C10.6066 20.7877 8.08447 18.2655 8.08447 15.1661C8.08447 12.0667 10.6066 9.54453 13.706 9.54453C16.8055 9.54453 19.3276 12.0667 19.3276 15.1661C19.3276 18.2655 16.8055 20.7877 13.706 20.7877Z" fill="currentColor"></path>
+                    <path d="M19.3274 15.1661C19.3274 12.0667 16.8052 9.54453 13.7058 9.54453V20.7877C16.8052 20.7877 19.3274 18.2655 19.3274 15.1661Z" fill="currentColor"></path>
+                    <path d="M13.3044 17.1048L11.532 15.3324L12.6675 14.1968L13.3044 14.8336L15.1459 12.9921L16.2814 14.1277L13.3044 17.1048Z" fill="#ECF2FF"></path>
+                    <path d="M20.6686 4.7119L22.0301 2.35362L20.6404 1.55054L19.1701 4.09722C18.3202 3.79596 17.4606 3.56601 16.5948 3.40764L17.1457 0.279205L15.5647 0L15.0032 3.1884C14.1391 3.1181 13.2729 3.1181 12.4088 3.1884L11.8473 0L10.2663 0.279205L10.8172 3.40764C9.95141 3.56595 9.09184 3.79596 8.24191 4.09722L6.77163 1.55054L5.38192 2.35362L6.74342 4.7119C5.67093 5.20713 4.61809 5.80714 3.6001 6.53768L4.5381 7.84269C10.2977 3.70649 17.1145 3.70649 22.8741 7.84269L23.8121 6.53768C22.7939 5.80714 21.7411 5.20719 20.6686 4.7119Z" fill="#FDB43A"></path>
+                    <path d="M22.8737 7.84269L23.8117 6.53768C22.7938 5.80714 21.7409 5.20719 20.6684 4.7119L22.0299 2.35362L20.6402 1.55054L19.1699 4.09722C18.32 3.79596 17.4604 3.56601 16.5946 3.40764L17.1456 0.279205L15.5645 0L15.003 3.1884C14.5709 3.15322 14.1384 3.13566 13.7058 3.13566V4.74044C16.8499 4.74054 19.9939 5.77459 22.8737 7.84269Z" fill="#FDB43A"></path>
+                    <path d="M13.7058 16.7033L16.2813 14.1277L15.1457 12.9921L13.7058 14.4321V16.7033Z" fill="#D9E5FF"></path>
+                  </svg>
+                  <h5 class="mb-0">Our Vision</h5>
+                </div>
+                <p>Our vision is to lead globally in AI-powered SEO content, empowering businesses with intelligent
+                  strategies for sustainable digital growth</p>
+              </div>
+            </div>
+          </div>
+          <div class="animate" data-direction="up"> 
+            <button class="btn btn--base">Get started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ==========================  About Section End  ========================== --> 
+    <!--==========================  Features Section Start  ==========================-->
+<section class="features-section my-120">
+    <div class="container">
+        <div class="row gy-5">
+            <div class="col-lg-6 align-self-center">
+                <div class="features-content">
+                    <div class="section-title">
+                        <span class="btn btn--base btn--section animate" data-direction="left">core feature</span>
+                        <h2 class="main-title animate" data-direction="left">What Makes Us Different</h2>
+                        <p class="sub-title animate" data-direction="left">Real-time analytics, seamless integration, and automated processes are powerful features. For effective teamwork, enjoy a user-friendly interface.</p>
+                    </div>
+                    <div class="feature-list mt-60 animate" data-direction="left">
+                        <div class="indicator"></div>
+                        <div class="feature-list__item active">
+                            <h6>Smart Image Adapter</h6>
+                            <p>Upload your images and let AI adapt them into professional layouts for multimedia channels, up to 10x faster than manual.</p>
+                        </div>
+                        <div class="feature-list__item">
+                            <h6>AI Caption</h6>
+                            <p>Upload pictures and text; AI generates matching copy, descriptions, and drafts for your layouts to enrich your promotions and more.</p>
+                        </div>
+                        <div class="feature-list__item">
+                            <h6>For Various Platforms</h6>
+                            <p>Generate structured layouts in your brand style, optimized for social media, email, and other channels for promotion.</p>
+                        </div>
+                        <div class="feature-list__item">
+                            <h6>One-Click Content Creation</h6>
+                            <p>Transform text, documents, or link into pro content, saving time and boosting productivity.</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6  align-self-end">
+                <div class="features-image">
+                    <img src="assets/images/feature/feature1.jpg" alt="feature image" class="active">
+                    <img src="assets/images/feature/feature2.png" alt="feature image">
+                    <img src="assets/images/feature/feature3.png" alt="feature image">
+                    <img src="assets/images/feature/feature4.png" alt="feature image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==========================  Features Section End  ==========================--> 
+    <!--==========================  Ai-template Section Start  ==========================-->
+<section class="ai-template-section section-bg py-120">
+    <div class="container position-relative">
+        <div class="ai-template-shape">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-5 col-lg-6">
+                <div class="section-title text-center">
+                    <span class="btn btn--base btn--section animate" data-direction="down">AI Template</span>
+                    <h2 class="main-title animate" data-direction="down">Ready to use AI Templates</h2>
+                    <p class="sub-title animate" data-direction="down">Pick a template and generate optimized
+                        content tailored to you needs</p>
+                        <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="row gy-4 justify-content-center mt-60">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="ai-template__cart animate">
+    <div class="ai-template__cart-header">
+        <img src="assets/images/ai-template/blog.png" alt="blog">
+        <h4>Blog Post Generator</h4>
+    </div>
+    <p>Quickly create SEO-optimized blog posts with engaging content, smart structure, and targeted keywords.</p>
+    <a href="#" class="more-btn">Use Template <i class="fa-solid fa-arrow-right"></i></a>
+</div> 
+            </div> 
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="ai-template__cart animate">
+    <div class="ai-template__cart-header">
+        <img src="assets/images/ai-template/description.png" alt="blog">
+        <h4>Product Description</h4>
+    </div>
+    <p>Generate persuasive, keyword-rich product descriptions that highlight features, attract customers, and boost sales.</p>
+    <a href="#" class="more-btn">Use Template <i class="fa-solid fa-arrow-right"></i></a>
+</div> 
+            </div> 
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="ai-template__cart animate">
+    <div class="ai-template__cart-header">
+        <img src="assets/images/ai-template/landing.png" alt="blog">
+        <h4>Landing Page Copy</h4>
+    </div>
+    <p>Boost your website’s ranking with engaging, AI-powered SEO content that drives traffic and conversions.</p>
+    <a href="#" class="more-btn">Use Template <i class="fa-solid fa-arrow-right"></i></a>
+</div> 
+            </div> 
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="ai-template__cart animate">
+    <div class="ai-template__cart-header">
+        <img src="assets/images/ai-template/eta-titles.png" alt="blog">
+        <h4>Meta Titles &amp; Description</h4>
+    </div>
+    <p>Create compelling meta titles and descriptions that improve SEO, increase clicks, and attract target audiences.</p>
+    <a href="#" class="more-btn">Use Template <i class="fa-solid fa-arrow-right"></i></a>
+</div> 
+            </div> 
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="ai-template__cart animate">
+    <div class="ai-template__cart-header">
+        <img src="assets/images/ai-template/captions.png" alt="blog">
+        <h4>Social Media Captions</h4>
+    </div>
+    <p>Craft engaging social media captions that boost visibility, drive traffic, and enhance your brand’s online presence.</p>
+    <a href="#" class="more-btn">Use Template <i class="fa-solid fa-arrow-right"></i></a>
+</div> 
+            </div> 
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="ai-template__cart animate">
+    <div class="ai-template__cart-header">
+        <img src="assets/images/ai-template/article.png" alt="blog">
+        <h4>Article Re - writers</h4>
+    </div>
+    <p>Transform existing articles into fresh, SEO-optimized content that improves rankings, to the readability, and audience engagement</p>
+    <a href="#" class="more-btn">Use Template <i class="fa-solid fa-arrow-right"></i></a>
+</div> 
+            </div> 
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="ai-template__cart animate">
+    <div class="ai-template__cart-header">
+        <img src="assets/images/ai-template/email.png" alt="blog">
+        <h4>Email Writers </h4>
+    </div>
+    <p>Create persuasive, SEO-friendly emails that engage subscribers, drive conversions, strengthen your brand’s online presence.</p>
+    <a href="#" class="more-btn">Use Template <i class="fa-solid fa-arrow-right"></i></a>
+</div> 
+            </div> 
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="ai-template__cart animate">
+    <div class="ai-template__cart-header">
+        <img src="assets/images/ai-template/press.png" alt="blog">
+        <h4>AI Press Release</h4>
+    </div>
+    <p>Generate professional, SEO-optimized press releases that boost brand visibility, attract media attention, and drive .</p>
+    <a href="#" class="more-btn">Use Template <i class="fa-solid fa-arrow-right"></i></a>
+</div> 
+            </div> 
+        </div>
+    </div>
+</section>
+<!--==========================  Ai-template Section End  ==========================--> 
+    <!--========================== Testimonials Section Start ==========================-->
+<section class="testimonials-section my-120">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8">
+                <div class="section-title text-center">
+                    <span class="btn btn--base btn--section animate" data-direction="down">user feedback</span>
+                    <h2 class="main-title animate" data-direction="down">Loved by 10,000+ Creators &amp; Brands”</h2>
+                    <p class="sub-title animate" data-direction="down">Trusted by professionals who rely on us for quality, optimized conten</p>
+                </div> 
+                <div class="happy-client justify-content-center mt-4 animate">
+                    <img src="assets/images/thumbs/01.png" alt="user image">
+                    <img src="assets/images/thumbs/02.png" alt="user image">
+                    <img src="assets/images/thumbs/03.png" alt="user image">
+                    <img src="assets/images/thumbs/04.png" alt="user image">
+                    <p><span class="odometer-counter" data-start="0" data-target="1500"></span>+ Happy Creators</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-60">
+            <div class="col-12">
+                <div class="testimonial-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card animate">
+                                <div class="testimonial-card__header">
+                                    <div class="user-content">
+                                        <img src="assets/images/thumbs/01.png" alt="user image" class="user-img">
+                                        <div class="user-text">
+                                            <h6 class="mb-0">Robert Fox</h6>
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="67" height="48" viewBox="0 0 67 48" fill="none">
+                                        <path d="M12.8181 31.2986C11.3525 34.9847 9.04316 38.6265 5.95652 42.1351C4.97946 43.2454 4.84622 44.8441 5.64561 46.0877C6.26744 47.0647 7.28883 47.5977 8.39912 47.5977C8.71002 47.5977 9.02095 47.5756 9.33186 47.4644C15.8603 45.5547 31.1158 38.782 31.5378 17.0645C31.6931 8.69301 25.5644 1.49832 17.5924 0.676704C13.1734 0.232564 8.77671 1.67586 5.51237 4.60706C2.24817 7.56049 0.382812 11.7797 0.382812 16.1764C0.382812 23.5043 5.57906 29.9219 12.8181 31.2986Z" fill="white" fill-opacity="0.05"></path>
+                                        <path d="M53.0322 0.676704C48.6353 0.232564 44.2386 1.67586 40.9744 4.60706C37.7101 7.56049 35.8447 11.7797 35.8447 16.1764C35.8447 23.5043 41.041 29.9218 48.2801 31.2986C46.8145 34.9847 44.5051 38.6265 41.4184 42.1351C40.4414 43.2454 40.3081 44.8441 41.1077 46.0877C41.7294 47.0647 42.7509 47.5976 43.8612 47.5976C44.1719 47.5976 44.4829 47.5755 44.7938 47.4644C51.3223 45.5547 66.5778 38.782 66.9997 17.0645V16.7538C66.9997 8.51532 60.9375 1.49832 53.0322 0.676704Z" fill="white" fill-opacity="0.05"></path>
+                                    </svg>
+                                </div>
+                                <div class="testimonial-card__content">
+                                    <p>Helps me share recipes effortlessly, combining tasty descriptions with
+                                        eye-catching templates — saving time and raising my content quality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card animate">
+                                <div class="testimonial-card__header">
+                                    <div class="user-content">
+                                        <img src="assets/images/thumbs/02.png" alt="user image" class="user-img">
+                                        <div class="user-text">
+                                            <h6 class="mb-0">Bessie Cooper</h6>
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="67" height="48" viewBox="0 0 67 48" fill="none">
+                                        <path d="M12.8181 31.2986C11.3525 34.9847 9.04316 38.6265 5.95652 42.1351C4.97946 43.2454 4.84622 44.8441 5.64561 46.0877C6.26744 47.0647 7.28883 47.5977 8.39912 47.5977C8.71002 47.5977 9.02095 47.5756 9.33186 47.4644C15.8603 45.5547 31.1158 38.782 31.5378 17.0645C31.6931 8.69301 25.5644 1.49832 17.5924 0.676704C13.1734 0.232564 8.77671 1.67586 5.51237 4.60706C2.24817 7.56049 0.382812 11.7797 0.382812 16.1764C0.382812 23.5043 5.57906 29.9219 12.8181 31.2986Z" fill="white" fill-opacity="0.05"></path>
+                                        <path d="M53.0322 0.676704C48.6353 0.232564 44.2386 1.67586 40.9744 4.60706C37.7101 7.56049 35.8447 11.7797 35.8447 16.1764C35.8447 23.5043 41.041 29.9218 48.2801 31.2986C46.8145 34.9847 44.5051 38.6265 41.4184 42.1351C40.4414 43.2454 40.3081 44.8441 41.1077 46.0877C41.7294 47.0647 42.7509 47.5976 43.8612 47.5976C44.1719 47.5976 44.4829 47.5755 44.7938 47.4644C51.3223 45.5547 66.5778 38.782 66.9997 17.0645V16.7538C66.9997 8.51532 60.9375 1.49832 53.0322 0.676704Z" fill="white" fill-opacity="0.05"></path>
+                                    </svg>
+                                </div>
+                                <div class="testimonial-card__content">
+                                    <p>AISEO streamlines my workflow with intuitive tools and professional formatting. Creating industry-specific content has never been easier or faster.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card animate">
+                                <div class="testimonial-card__header">
+                                    <div class="user-content">
+                                        <img src="assets/images/thumbs/05.png" alt="user image" class="user-img">
+                                        <div class="user-text">
+                                            <h6 class="mb-0">Jerome Bell</h6>
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="67" height="48" viewBox="0 0 67 48" fill="none">
+                                        <path d="M12.8181 31.2986C11.3525 34.9847 9.04316 38.6265 5.95652 42.1351C4.97946 43.2454 4.84622 44.8441 5.64561 46.0877C6.26744 47.0647 7.28883 47.5977 8.39912 47.5977C8.71002 47.5977 9.02095 47.5756 9.33186 47.4644C15.8603 45.5547 31.1158 38.782 31.5378 17.0645C31.6931 8.69301 25.5644 1.49832 17.5924 0.676704C13.1734 0.232564 8.77671 1.67586 5.51237 4.60706C2.24817 7.56049 0.382812 11.7797 0.382812 16.1764C0.382812 23.5043 5.57906 29.9219 12.8181 31.2986Z" fill="white" fill-opacity="0.05"></path>
+                                        <path d="M53.0322 0.676704C48.6353 0.232564 44.2386 1.67586 40.9744 4.60706C37.7101 7.56049 35.8447 11.7797 35.8447 16.1764C35.8447 23.5043 41.041 29.9218 48.2801 31.2986C46.8145 34.9847 44.5051 38.6265 41.4184 42.1351C40.4414 43.2454 40.3081 44.8441 41.1077 46.0877C41.7294 47.0647 42.7509 47.5976 43.8612 47.5976C44.1719 47.5976 44.4829 47.5755 44.7938 47.4644C51.3223 45.5547 66.5778 38.782 66.9997 17.0645V16.7538C66.9997 8.51532 60.9375 1.49832 53.0322 0.676704Z" fill="white" fill-opacity="0.05"></path>
+                                    </svg>
+                                </div>
+                                <div class="testimonial-card__content">
+                                    <p>Generating educational content is simple with AISEO. AI-written articles and attractive layouts make my teaching materials more engaging.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card animate">
+                                <div class="testimonial-card__header">
+                                    <div class="user-content">
+                                        <img src="assets/images/thumbs/01.png" alt="user image" class="user-img">
+                                        <div class="user-text">
+                                            <h6 class="mb-0">Robert Fox</h6>
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="67" height="48" viewBox="0 0 67 48" fill="none">
+                                        <path d="M12.8181 31.2986C11.3525 34.9847 9.04316 38.6265 5.95652 42.1351C4.97946 43.2454 4.84622 44.8441 5.64561 46.0877C6.26744 47.0647 7.28883 47.5977 8.39912 47.5977C8.71002 47.5977 9.02095 47.5756 9.33186 47.4644C15.8603 45.5547 31.1158 38.782 31.5378 17.0645C31.6931 8.69301 25.5644 1.49832 17.5924 0.676704C13.1734 0.232564 8.77671 1.67586 5.51237 4.60706C2.24817 7.56049 0.382812 11.7797 0.382812 16.1764C0.382812 23.5043 5.57906 29.9219 12.8181 31.2986Z" fill="white" fill-opacity="0.05"></path>
+                                        <path d="M53.0322 0.676704C48.6353 0.232564 44.2386 1.67586 40.9744 4.60706C37.7101 7.56049 35.8447 11.7797 35.8447 16.1764C35.8447 23.5043 41.041 29.9218 48.2801 31.2986C46.8145 34.9847 44.5051 38.6265 41.4184 42.1351C40.4414 43.2454 40.3081 44.8441 41.1077 46.0877C41.7294 47.0647 42.7509 47.5976 43.8612 47.5976C44.1719 47.5976 44.4829 47.5755 44.7938 47.4644C51.3223 45.5547 66.5778 38.782 66.9997 17.0645V16.7538C66.9997 8.51532 60.9375 1.49832 53.0322 0.676704Z" fill="white" fill-opacity="0.05"></path>
+                                    </svg>
+                                </div>
+                                <div class="testimonial-card__content">
+                                    <p>Helps me share recipes effortlessly, combining tasty descriptions with
+                                        eye-catching templates — saving time and raising my content quality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card animate">
+                                <div class="testimonial-card__header">
+                                    <div class="user-content">
+                                        <img src="assets/images/thumbs/04.png" alt="user image" class="user-img">
+                                        <div class="user-text">
+                                            <h6 class="mb-0">Robert Fox</h6>
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="67" height="48" viewBox="0 0 67 48" fill="none">
+                                        <path d="M12.8181 31.2986C11.3525 34.9847 9.04316 38.6265 5.95652 42.1351C4.97946 43.2454 4.84622 44.8441 5.64561 46.0877C6.26744 47.0647 7.28883 47.5977 8.39912 47.5977C8.71002 47.5977 9.02095 47.5756 9.33186 47.4644C15.8603 45.5547 31.1158 38.782 31.5378 17.0645C31.6931 8.69301 25.5644 1.49832 17.5924 0.676704C13.1734 0.232564 8.77671 1.67586 5.51237 4.60706C2.24817 7.56049 0.382812 11.7797 0.382812 16.1764C0.382812 23.5043 5.57906 29.9219 12.8181 31.2986Z" fill="white" fill-opacity="0.05"></path>
+                                        <path d="M53.0322 0.676704C48.6353 0.232564 44.2386 1.67586 40.9744 4.60706C37.7101 7.56049 35.8447 11.7797 35.8447 16.1764C35.8447 23.5043 41.041 29.9218 48.2801 31.2986C46.8145 34.9847 44.5051 38.6265 41.4184 42.1351C40.4414 43.2454 40.3081 44.8441 41.1077 46.0877C41.7294 47.0647 42.7509 47.5976 43.8612 47.5976C44.1719 47.5976 44.4829 47.5755 44.7938 47.4644C51.3223 45.5547 66.5778 38.782 66.9997 17.0645V16.7538C66.9997 8.51532 60.9375 1.49832 53.0322 0.676704Z" fill="white" fill-opacity="0.05"></path>
+                                    </svg>
+                                </div>
+                                <div class="testimonial-card__content">
+                                    <p>Helps me share recipes effortlessly, combining tasty descriptions with
+                                        eye-catching templates — saving time and raising my content quality.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--========================== Testimonials Section End ==========================-->
+    <!--==========================  Perfect-business Section Start  ==========================-->
+<section class="perfect-business-section my-120">
+    <div class="container">
+        <div class="row gy-5">
+            <div class="col-lg-6">
+                <div class="section-title">
+                    <span class="btn btn--base btn--section animate" data-direction="down">Business</span>
+                    <h2 class="main-title animate" data-direction="down">Perfect for Every Business</h2>
+                    <p class="sub-title animate" data-direction="down">From startups to agencies, discover how AI SEO content writing fits every
+                        business need</p>
+                </div>
+                <div class="business-card mt-60">
+                    <!-- <div class="row gy-4">
+                        <div class="col-md-4 col-6">
+                            <div class="business-card__item">
+                                <img src="assets/images/business/1.png" alt="business icon">
+                                <h5>Digital marketing</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <div class="business-card__item">
+                                <img src="assets/images/business/2.png" alt="business icon">
+                                <h5>Affiliate Marketers</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <div class="business-card__item">
+                                <img src="assets/images/business/3.png" alt="business icon">
+                                <h5>Bloggers & Writers</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <div class="business-card__item">
+                                <img src="assets/images/business/4.png" alt="business icon">
+                                <h5>Students & Researchers</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <div class="business-card__item">
+                                <img src="assets/images/business/5.png" alt="business icon">
+                                <h5>E- commerce store</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <div class="business-card__item">
+                                <img src="assets/images/business/6.png" alt="business icon">
+                                <h5>Corporate Teams</h5>
+                            </div>
+                        </div>
+                    </div>  -->
+                    <div class="business-card__wrapper">
+
+                        <div class="business-card__item animate">
+                            <img src="assets/images/business/1.png" alt="business icon">
+                            <h5>Digital marketing</h5>
+                        </div>
+
+                        <div class="business-card__item animate">
+                            <img src="assets/images/business/2.png" alt="business icon">
+                            <h5>Affiliate Marketers</h5>
+                        </div>
+
+                        <div class="business-card__item animate">
+                            <img src="assets/images/business/3.png" alt="business icon">
+                            <h5>Bloggers &amp; Writers</h5>
+                        </div>
+
+                        <div class="business-card__item animate">
+                            <img src="assets/images/business/4.png" alt="business icon">
+                            <h5>Students &amp; Researchers</h5>
+                        </div>
+
+                        <div class="business-card__item animate">
+                            <img src="assets/images/business/5.png" alt="business icon">
+                            <h5>E- commerce store</h5>
+                        </div>
+
+                        <div class="business-card__item animate">
+                            <img src="assets/images/business/6.png" alt="business icon">
+                            <h5>Corporate Teams</h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 align-self-end">
+                <div class="perfect-business__img">
+                    <img src="assets/images/business/business-image.png" alt="perfect business" class="animate" data-direction="right">
+                    <img src="assets/images/business/business-icon.png" alt="perfect business" class="perfect-business-icon">
+                    <div class="perfect-business-shape"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==========================  Perfect-business Section End  ==========================-->
+    <!-- ==========================  Analytics Section Start  ========================== -->
+<section class="analytics-section my-120">
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-xl-7 col-lg-6">
+        <div class="analytics-img animate" data-direction="left">
+          <img src="assets/images/banner/analytics.png" alt="analytics image">
+        </div>
+      </div>
+      <div class="col-xl-5 col-lg-6">
+        <div class="analytics-content ps-xxl-5">
+          <div class="section-title">
+            <span class="btn btn--base btn--section animate" data-direction="right">analytics</span>
+            <h2 class="main-title animate" data-direction="right">Analytics for your business</h2>
+            <p class="sub-title animate" data-direction="right">Monitor rankings, traffic, and engagement for every AI-generated content piece.</p>
+          </div>
+          <p class="animate mt-4 mb-5" data-direction="down">Track keyword rankings, traffic, and engagement of your AI-generated SEO content in real time. Gain actionable insights, identify top-performing pages, and optimize with AI-driven recommendations to boost visibility, clicks, and conversions effortlessly.”</p>
+          <a href="#" class="btn btn--base animate" data-direction="down">Get Started</a> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ==========================  Analytics Section End  ========================== -->
+    <!--==========================  Integrations Section Start  ==========================-->
+<section class="integrations-section py-120 bg-img" data-background-image="assets/images/integrations/bg.png">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="section-title text-center">
+                    <span class="btn btn--base btn--section animate" data-direction="down">Tool integrations</span>
+                    <h2 class="main-title animate" data-direction="down">Powerful SEO Tool Integrations</h2>
+                    <p class="sub-title animate" data-direction="down">Connect with WordPress, Google, and leading SEO tools for a seamless workflow
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-60 d-none d-lg-flex">
+            <div class="col-12">
+                <div class="integrations-list">
+                    <div class="integrations-list__box">
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/docs.png" alt="icons">
+                                <h6>Google Docs</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="integrations-list__box">
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/grammarly.png" alt="icons">
+                                <h6>Grammarly</h6>
+                            </div> 
+                        </div>
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/wordpress.png" alt="icons">
+                                <h6>WordPress</h6>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="integrations-list__box">
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/google-drive.png" alt="icons">
+                                <h6>Google Drive</h6>
+                            </div> 
+                        </div>
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/frase.png" alt="icons">
+                                <h6>Frase</h6>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="integrations-list__box">
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/ghost-cms.png" alt="icons">
+                                <h6>Ghost CMS</h6>
+                            </div> 
+                        </div>
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/google-analytics.png" alt="icons">
+                                <h6>Google Analytics</h6>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="integrations-list__box">
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/pitchbox.png" alt="icons">
+                                <h6>Pitchbox</h6>
+                            </div> 
+                        </div>
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/buzzsumo.png" alt="icons">
+                                <h6>BuzzSumo</h6>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="integrations-list__box">
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/ubersuggest.png" alt="icons">
+                                <h6>Ubersuggest</h6>
+                            </div> 
+                        </div>
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/ninjauutreach.png" alt="icons">
+                                <h6>NinjaOutreach</h6>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="integrations-list__box">
+                        <div class="integrations-list__item animate">
+                            <div>
+                                <img src="assets/images/integrations/drupal.png" alt="icons">
+                                <h6>Drupal</h6>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-60 gy-4 justify-content-center d-lg-none">
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/docs.png" alt="icons">
+                        <h6>Google Docs</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/grammarly.png" alt="icons">
+                        <h6>Grammarly</h6>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/wordpress.png" alt="icons">
+                        <h6>WordPress</h6>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/google-drive.png" alt="icons">
+                        <h6>Google Drive</h6>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/frase.png" alt="icons">
+                        <h6>Frase</h6>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/ghost-cms.png" alt="icons">
+                        <h6>Ghost CMS</h6>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/google-analytics.png" alt="icons">
+                        <h6>Google Analytics</h6>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/pitchbox.png" alt="icons">
+                        <h6>Pitchbox</h6>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/buzzsumo.png" alt="icons">
+                        <h6>BuzzSumo</h6>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/ubersuggest.png" alt="icons">
+                        <h6>Ubersuggest</h6>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/ninjauutreach.png" alt="icons">
+                        <h6>NinjaOutreach</h6>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <div class="integrations-list__item animate">
+                    <div>
+                        <img src="assets/images/integrations/drupal.png" alt="icons">
+                        <h6>Drupal</h6>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==========================  Integrations Section End  ==========================-->
+    <!-- ==========================  Faq Section Start  ========================== -->
+<section class="faq-section my-120">
+  <div class="container position-relative">
+    <div class="faq-shape">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div class="section-title text-center">
+          <span class="btn btn--base btn--section animate" data-direction="down">faq</span>
+          <h2 class="main-title animate" data-direction="down">Got Questions? We’ve Got Answers</h2>
+          <p class="sub-title animate" data-direction="down">Find quick answers to the most common questions about our services, features, and
+            policies.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row gy-4 mt-60">
+      <div class="col-lg-6">
+        <div class="accordion custom--accordion" id="accordionLeft">
+          <div class="accordion-item animate">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqLeftOne" aria-expanded="false" aria-controls="faqLeftOne">
+                What is an AI SEO Content Writer?
+              </button>
+            </h2>
+            <div id="faqLeftOne" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+              <div class="accordion-body">
+                <p>It analyzes keywords, search intent, and competitor data to generate content that ranks higher on
+                  search engines by meeting both user and algorithm needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item animate">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqLeftTwo" aria-expanded="true" aria-controls="faqLeftTwo">
+                How does it improve SEO rankings?
+              </button>
+            </h2>
+            <div id="faqLeftTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionLeft">
+              <div class="accordion-body">
+                <p>It analyzes keywords, search intent, and competitor data to generate content that ranks higher on
+                  search engines by meeting both user and algorithm needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item animate">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqLeftThree" aria-expanded="false" aria-controls="faqLeftThree">
+                Can I customize the writing style?
+              </button>
+            </h2>
+            <div id="faqLeftThree" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+              <div class="accordion-body">
+                <p>It analyzes keywords, search intent, and competitor data to generate content that ranks higher on
+                  search engines by meeting both user and algorithm needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item animate">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqLeftFour" aria-expanded="false" aria-controls="faqLeftFour">
+                Does it support multiple languages?
+              </button>
+            </h2>
+            <div id="faqLeftFour" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+              <div class="accordion-body">
+                <p>It analyzes keywords, search intent, and competitor data to generate content that ranks higher on
+                  search engines by meeting both user and algorithm needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item animate">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqLeftFive" aria-expanded="false" aria-controls="faqLeftFive">
+                Will the content be plagiarism-free?
+              </button>
+            </h2>
+            <div id="faqLeftFive" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+              <div class="accordion-body">
+                <p>It analyzes keywords, search intent, and competitor data to generate content that ranks higher on
+                  search engines by meeting both user and algorithm needs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="accordion custom--accordion" id="accordionRight">
+          <div class="accordion-item animate">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqRightOne" aria-expanded="false" aria-controls="faqRightOne">
+                Can I generate meta titles and descriptions?
+              </button>
+            </h2>
+            <div id="faqRightOne" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
+              <div class="accordion-body">
+                <p>It analyzes keywords, search intent, and competitor data to generate content that ranks higher on
+                  search engines by meeting both user and algorithm needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item animate">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqRightTwo" aria-expanded="false" aria-controls="faqRightTwo">
+                How do I choose the right keywords?
+              </button>
+            </h2>
+            <div id="faqRightTwo" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
+              <div class="accordion-body">
+                <p>It analyzes keywords, search intent, and competitor data to generate content that ranks higher on
+                  search engines by meeting both user and algorithm needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item animate">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqRightThree" aria-expanded="false" aria-controls="faqRightThree">
+                Does it support multiple languages?
+              </button>
+            </h2>
+            <div id="faqRightThree" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
+              <div class="accordion-body">
+                <p>It analyzes keywords, search intent, and competitor data to generate content that ranks higher on
+                  search engines by meeting both user and algorithm needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item animate">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqRightFour" aria-expanded="true" aria-controls="faqRightFour">
+                Is the content suitable for blogs and websites?
+              </button>
+            </h2>
+            <div id="faqRightFour" class="accordion-collapse collapse show" data-bs-parent="#accordionRight">
+              <div class="accordion-body">
+                <p>It analyzes keywords, search intent, and competitor data to generate content that ranks higher on
+                  search engines by meeting both user and algorithm needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item animate">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqRightFive" aria-expanded="false" aria-controls="faqRightFive">
+                Do I need SEO knowledge to use it?
+              </button>
+            </h2>
+            <div id="faqRightFive" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
+              <div class="accordion-body">
+                <p>It analyzes keywords, search intent, and competitor data to generate content that ranks higher on
+                  search engines by meeting both user and algorithm needs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ==========================  Faq Section End  ========================== -->
+    <!-- ==================== Blog Start Here ==================== -->
+<section class="blog my-120">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-7">
+                <div class="section-title text-center">
+                    <span class="btn btn--base btn--section animate" data-direction="down">BLOG POST</span>
+                    <h2 class="main-title animate" data-direction="down">The Content Intelligence Blog</h2>
+                    <p class="sub-title animate" data-direction="down">Discover smart insights, SEO strategies, and AI-powered tips to create content
+                        that ranks and converts.</p>
+                        <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="row gy-4 justify-content-center mt-60">
+            <div class="col-lg-4 col-md-6 animate">
+                <div class="blog-item">
+                    <div class="blog-item__thumb">
+                        <a href="blog-details.html" class="blog-item__thumb-link">
+                            <img src="assets/images/blog/1.jpg" class="fit-image" alt="">
+                        </a>
+                    </div>
+                    <div class="blog-item__content">
+                        <span class="btn btn--base btn--section">14 May 2025</span>
+                        <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">Mastering AI SEO: Strategies to Dominate
+                                Search Rankings in 2025</a></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 animate">
+                <div class="blog-item">
+                    <div class="blog-item__thumb">
+                        <a href="blog-details.html" class="blog-item__thumb-link">
+                            <img src="assets/images/blog/2.jpg" class="fit-image" alt="">
+                        </a>
+                    </div>
+                    <div class="blog-item__content">
+                        <span class="btn btn--base btn--section">14 May 2025</span>
+                        <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">Best AI SEO Tools Every Content Writer
+                                Should Start Using Today </a></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 animate">
+                <div class="blog-item">
+                    <div class="blog-item__thumb">
+                        <a href="blog-details.html" class="blog-item__thumb-link">
+                            <img src="assets/images/blog/3.jpg" class="fit-image" alt="">
+                        </a>
+                    </div>
+                    <div class="blog-item__content">
+                        <span class="btn btn--base btn--section">14 May 2025</span>
+                        <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">The Future of Digital Marketing with
+                                Artificial Intelligence in SEO</a></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Blog End Here ==================== -->
+</main>
+<!-- Footer -->
+<!-- ==================== Footer Start Here ==================== -->
+<footer class="footer-area">
+    <div class="pb-60 pt-120">
+        <div class="container">
+            <div class="row justify-content-center gy-5">
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <div class="footer-item">
+                        <div class="footer-item__logo">
+                            <a href="index.html"> <img src="assets/images/logo/logo.png" alt=""></a>
+                        </div>
+                        <p class="footer-item__desc"> Founded in 1998, we are a pioneering company specializing in
+                            AI-powered SEO content writing. With decades of experience, we combine advanced technology
+                            and proven strategies to deliver high-quality. </p>
+
+                        <ul class="social-list-two">
+                            <li class="social-list-two__item">
+                                <a href="https://www.facebook.com" class="social-list-two__link flex-center">
+                                    <i class="fab fa-facebook-f"></i>facebook
+                                </a>
+                            </li>
+                            <li class="social-list-two__item">
+                                <a href="https://www.twitter.com" class="social-list-two__link flex-center">
+                                    <i class="fa-brands fa-x-twitter"></i>Twitter
+                                </a>
+                            </li>
+                            <li class="social-list-two__item">
+                                <a href="https://www.linkedin.com" class="social-list-two__link flex-center">
+                                    <i class="fab fa-linkedin-in"></i>linkedin
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- <ul class="social-list">
+                            <li class="social-list__item"><a href="https://www.facebook.com" class="social-list__link flex-center"><i class="fab fa-facebook-f"></i></a> </li>
+                            <li class="social-list__item"><a href="https://www.twitter.com" class="social-list__link flex-center active"> <i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li class="social-list__item"><a href="https://www.linkedin.com" class="social-list__link flex-center"> <i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="social-list__item"><a href="https://www.pinterest.com" class="social-list__link flex-center"> <i class="fab fa-instagram"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-xsm-6">
+                    <div class="footer-item">
+                        <h5 class="footer-item__title">Userful Link</h5>
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">About Us </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Campaign </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">How to work</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Latest News</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-xsm-6">
+                    <div class="footer-item">
+                        <h5 class="footer-item__title">Use Case</h5>
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Digital Marketing </a>
+                            </li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Bloggers &amp; Writers </a>
+                            </li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">e-Commerce</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Education</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">E- commerces</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <div class="footer-item ps-xl-5">
+                        <span class="btn btn--base btn--section">News latter</span>
+                        <h5 class="footer-item__title">Subscribe news latter</h5>
+                        <form action="#" class="footer-form">
+                            <input type="email" class="form--control" placeholder="Enter your email">
+                            <button type="submit" class="btn btn--base btn--section">
+                                <i class="fa-regular fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Top End-->
+
+    <!-- bottom Footer -->
+    <div class="container">
+        <div class="bottom-footer">
+            <div class="row gy-3">
+                <div class="col-md-12 text-center">
+                    <p class="bottom-footer-text"> © Copyright 2025 . All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ==================== Footer End Here ==================== -->
+
+<!-- Jquery js -->
+<script src="assets/js/jquery-3.7.1.min.js"></script> 
+<!-- Bootstrap Bundle Js -->
+<script src="assets/js/boostrap.bundle.min.js"></script>
+<!-- Gsap -->
+<script src="assets/js/gsap.min.js"></script>
+<!-- Scroll Trigger -->
+<script src="assets/js/ScrollTrigger.min.js"></script> 
+<!-- Swiper js -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<!-- Fancybox -->
+<script src="assets/js/fancybox.umd.js"></script> 
+<!-- Select2 -->
+<script src="assets/js/select2.min.js"></script>
+<!-- Apexcharts -->
+<script src="assets/js/apexcharts.min.js"></script> 
+
+ <!-- main js -->
+ <script src="assets/js/main.js"></script>
+
+</body></html>

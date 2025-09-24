@@ -1,0 +1,447 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title> Html Template</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- line awesome -->
+  <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <!-- Fancybox -->
+  <link rel="stylesheet" href="assets/css/fancybox.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="assets/css/select2.min.css">
+  <!-- Apexcharts -->
+  <link rel="stylesheet" href="assets/css/apexcharts.css">
+  <!-- Main css -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <!--==================== Preloader Start ====================-->
+<div id="preloader">
+    <div id="text">
+        <p>V</p>  
+        <p>i</p>
+        <p>s</p>
+        <p>e</p>
+        <p>r</p>
+        <p class="active">L</p>
+        <p class="active">A</p>
+        <p class="active">B</p> 
+
+    </div>
+</div>
+<!--==================== Preloader End ====================-->
+  <!--==================== Overlay Start ====================-->
+  <div class="body-overlay"></div>
+  <!--==================== Overlay End ====================-->
+
+  <!--==================== Sidebar Overlay End ====================-->
+  <div class="sidebar-overlay"></div>
+  <!--==================== Sidebar Overlay End ====================-->
+ 
+  <!-- ==================== Scroll to Top start ==================== -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+  <!-- ==================== Scroll to Top End Here ==================== -->
+<!--==========================   Header Start  ==========================-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-main">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo/logo.png" alt="logo" class="logo-img logo-black"> 
+            </a>
+            <div class="right-nav"> 
+                <ul class="header-login flex-align gap-3 d-none d-sm-flex">
+                    <li class="nav-item">
+                        <div class="dropdown-lang dropdown">
+                            <a href="#" class="language-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="flag" src="assets/images/language/us.png" alt="us">
+                                <span class="language-text">English</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><img class="flag" src="assets/images/language/us.png" alt="us"> English </a> </li>
+                                <li><a href="#"><img class="flag" src="assets/images/language/in.png" alt="in"> Hindi </a></li>
+                                <li><a href="#"><img class="flag" src="assets/images/language/bd.png" alt="bd"> Bangla </a></li>
+                            </ul>
+                        </div>
+                    </li> 
+                    <li class="header-login__item d-flex gap-2">
+                        <a href="login.html" class="btn btn--base"> 
+                            Sign up 
+                        </a>
+                    </li>             
+                </ul> 
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="index.html" class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="assets/images/logo/logo.png" alt="logo" class="logo-img">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="d-flex d-sm-none gap-4 pt-3 justify-content-center"> 
+                    <ul class="header-login flex-align gap-3">
+                        <li class="nav-item">
+                            <div class="dropdown-lang dropdown">
+                                <a href="#" class="language-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="flag" src="assets/images/language/us.png" alt="us">
+                                    <span class="language-text">English</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><img class="flag" src="assets/images/language/us.png" alt="us"> English </a> </li>
+                                    <li><a href="#"><img class="flag" src="assets/images/language/in.png" alt="in"> Hindi </a></li>
+                                    <li><a href="#"><img class="flag" src="assets/images/language/bd.png" alt="bd"> Bangla </a></li>
+                                </ul>
+                            </div>
+                        </li> 
+                        <li class="header-login__item d-flex gap-2">
+                            <a href="login.html" class="btn btn--base">
+                                <i class="fa-solid fa-user"></i>
+                                Login 
+                            </a>
+                        </li>
+                    </ul> 
+                </div> 
+                <div class="offcanvas-body align-items-center">
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="ai-template.html">AI template</a>
+                        </li>  
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--==========================  Header End  ==========================-->
+<main>
+    <!-- ==================== Breadcrumb Start Here ==================== -->
+<section class="breadcrumb py-120 bg-img" data-background-image="assets/images/banner/breadcrumb-bg.png">
+    <div class="container position-relative">
+        <div class="breadcrumb-shape">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="breadcrumb__wrapper">
+                    <h2 class="breadcrumb__title animate" data-direction="down"> Explore Our Latest Blog Posts</h2>
+                    <ul class="breadcrumb__list animate" data-direction="down">
+                        <li class="breadcrumb__item"><a href="index.html" class="breadcrumb__link"> Home</a> </li>
+                        <li class="breadcrumb__item">/</li>
+                        <li class="breadcrumb__item"> <span class="breadcrumb__item-text"> Blog </span> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Breadcrumb End Here ==================== -->
+    <!-- ==================== Blog Start Here ==================== -->
+    <section class="blog my-120">
+        <div class="container">
+            <div class="row gy-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 animate">
+                    <div class="blog-item">
+                        <div class="blog-item__thumb">
+                            <a href="blog-details.html" class="blog-item__thumb-link">
+                                <img src="assets/images/blog/1.jpg" class="fit-image" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item__content">
+                            <span class="btn btn--base btn--section">14 May 2025</span>
+                            <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">Mastering AI SEO: Strategies to Dominate
+                                    Search Rankings in 2025</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 animate">
+                    <div class="blog-item">
+                        <div class="blog-item__thumb">
+                            <a href="blog-details.html" class="blog-item__thumb-link">
+                                <img src="assets/images/blog/2.jpg" class="fit-image" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item__content">
+                            <span class="btn btn--base btn--section">14 May 2025</span>
+                            <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">Best AI SEO Tools Every Content Writer
+                                    Should Start Using Today </a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 animate">
+                    <div class="blog-item">
+                        <div class="blog-item__thumb">
+                            <a href="blog-details.html" class="blog-item__thumb-link">
+                                <img src="assets/images/blog/3.jpg" class="fit-image" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item__content">
+                            <span class="btn btn--base btn--section">14 May 2025</span>
+                            <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">The Future of Digital Marketing with
+                                    Artificial Intelligence in SEO</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 animate">
+                    <div class="blog-item">
+                        <div class="blog-item__thumb">
+                            <a href="blog-details.html" class="blog-item__thumb-link">
+                                <img src="assets/images/blog/4.jpg" class="fit-image" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item__content">
+                            <span class="btn btn--base btn--section">05 May 2025</span>
+                            <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">Case Study: How AI Boosted Blog Traffic
+                                    by Over 200 Percent</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 animate">
+                    <div class="blog-item">
+                        <div class="blog-item__thumb">
+                            <a href="blog-details.html" class="blog-item__thumb-link">
+                                <img src="assets/images/blog/5.jpg" class="fit-image" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item__content">
+                            <span class="btn btn--base btn--section">02 May 2025</span>
+                            <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">AI-Powered Meta Titles and Descriptions
+                                    for Higher Google Rankings</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 animate">
+                    <div class="blog-item">
+                        <div class="blog-item__thumb">
+                            <a href="blog-details.html" class="blog-item__thumb-link">
+                                <img src="assets/images/blog/6.jpg" class="fit-image" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item__content">
+                            <span class="btn btn--base btn--section">30 apr 2025</span>
+                            <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect"> Scaling Startup Growth with
+                                    AI-Optimized SEO Content Strategies</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 animate">
+                    <div class="blog-item">
+                        <div class="blog-item__thumb">
+                            <a href="blog-details.html" class="blog-item__thumb-link">
+                                <img src="assets/images/blog/7.jpg" class="fit-image" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item__content">
+                            <span class="btn btn--base btn--section">28 apr 2025</span>
+                            <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">How Agencies Use AI Tools to Scale SEO
+                                    Content Production Efficiently</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 animate">
+                    <div class="blog-item">
+                        <div class="blog-item__thumb">
+                            <a href="blog-details.html" class="blog-item__thumb-link">
+                                <img src="assets/images/blog/8.jpg" class="fit-image" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item__content">
+                            <span class="btn btn--base btn--section">20 apr 2025</span>
+                            <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">Is AI-Generated SEO Content
+                                    Google-Friendly and Rank-Worthy?</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 animate">
+                    <div class="blog-item">
+                        <div class="blog-item__thumb">
+                            <a href="blog-details.html" class="blog-item__thumb-link">
+                                <img src="assets/images/blog/9.jpg" class="fit-image" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item__content">
+                            <span class="btn btn--base btn--section">19 apr 2025</span>
+                            <h6 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">Automating Content Creation: From Draft
+                                    to Publish with AI Technology</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <nav aria-label="Page navigation example" class="animate" data-direction="down">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================== Blog End Here ==================== -->
+</main>
+<!-- Footer -->
+<!-- ==================== Footer Start Here ==================== -->
+<footer class="footer-area">
+    <div class="pb-60 pt-120">
+        <div class="container">
+            <div class="row justify-content-center gy-5">
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <div class="footer-item">
+                        <div class="footer-item__logo">
+                            <a href="index.html"> <img src="assets/images/logo/logo.png" alt=""></a>
+                        </div>
+                        <p class="footer-item__desc"> Founded in 1998, we are a pioneering company specializing in
+                            AI-powered SEO content writing. With decades of experience, we combine advanced technology
+                            and proven strategies to deliver high-quality. </p>
+
+                        <ul class="social-list-two">
+                            <li class="social-list-two__item">
+                                <a href="https://www.facebook.com" class="social-list-two__link flex-center">
+                                    <i class="fab fa-facebook-f"></i>facebook
+                                </a>
+                            </li>
+                            <li class="social-list-two__item">
+                                <a href="https://www.twitter.com" class="social-list-two__link flex-center">
+                                    <i class="fa-brands fa-x-twitter"></i>Twitter
+                                </a>
+                            </li>
+                            <li class="social-list-two__item">
+                                <a href="https://www.linkedin.com" class="social-list-two__link flex-center">
+                                    <i class="fab fa-linkedin-in"></i>linkedin
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- <ul class="social-list">
+                            <li class="social-list__item"><a href="https://www.facebook.com" class="social-list__link flex-center"><i class="fab fa-facebook-f"></i></a> </li>
+                            <li class="social-list__item"><a href="https://www.twitter.com" class="social-list__link flex-center active"> <i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li class="social-list__item"><a href="https://www.linkedin.com" class="social-list__link flex-center"> <i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="social-list__item"><a href="https://www.pinterest.com" class="social-list__link flex-center"> <i class="fab fa-instagram"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-xsm-6">
+                    <div class="footer-item">
+                        <h5 class="footer-item__title">Userful Link</h5>
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">About Us </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Campaign </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">How to work</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Latest News</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-xsm-6">
+                    <div class="footer-item">
+                        <h5 class="footer-item__title">Use Case</h5>
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Digital Marketing </a>
+                            </li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Bloggers &amp; Writers </a>
+                            </li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">e-Commerce</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Education</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">E- commerces</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <div class="footer-item ps-xl-5">
+                        <span class="btn btn--base btn--section">News latter</span>
+                        <h5 class="footer-item__title">Subscribe news latter</h5>
+                        <form action="#" class="footer-form">
+                            <input type="email" class="form--control" placeholder="Enter your email">
+                            <button type="submit" class="btn btn--base btn--section">
+                                <i class="fa-regular fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Top End-->
+
+    <!-- bottom Footer -->
+    <div class="container">
+        <div class="bottom-footer">
+            <div class="row gy-3">
+                <div class="col-md-12 text-center">
+                    <p class="bottom-footer-text"> © Copyright 2025 . All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ==================== Footer End Here ==================== -->
+
+<!-- Jquery js -->
+<script src="assets/js/jquery-3.7.1.min.js"></script> 
+<!-- Bootstrap Bundle Js -->
+<script src="assets/js/boostrap.bundle.min.js"></script>
+<!-- Gsap -->
+<script src="assets/js/gsap.min.js"></script>
+<!-- Scroll Trigger -->
+<script src="assets/js/ScrollTrigger.min.js"></script> 
+<!-- Swiper js -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<!-- Fancybox -->
+<script src="assets/js/fancybox.umd.js"></script> 
+<!-- Select2 -->
+<script src="assets/js/select2.min.js"></script>
+<!-- Apexcharts -->
+<script src="assets/js/apexcharts.min.js"></script> 
+
+ <!-- main js -->
+ <script src="assets/js/main.js"></script>
+
+</body></html>

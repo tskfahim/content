@@ -1,0 +1,461 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title> Html Template</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- line awesome -->
+  <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <!-- Fancybox -->
+  <link rel="stylesheet" href="assets/css/fancybox.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="assets/css/select2.min.css">
+  <!-- Apexcharts -->
+  <link rel="stylesheet" href="assets/css/apexcharts.css">
+  <!-- Main css -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <!--==================== Preloader Start ====================-->
+<div id="preloader">
+    <div id="text">
+        <p>V</p>  
+        <p>i</p>
+        <p>s</p>
+        <p>e</p>
+        <p>r</p>
+        <p class="active">L</p>
+        <p class="active">A</p>
+        <p class="active">B</p> 
+
+    </div>
+</div>
+<!--==================== Preloader End ====================-->
+  <!--==================== Overlay Start ====================-->
+  <div class="body-overlay"></div>
+  <!--==================== Overlay End ====================-->
+
+  <!--==================== Sidebar Overlay End ====================-->
+  <div class="sidebar-overlay"></div>
+  <!--==================== Sidebar Overlay End ====================-->
+ 
+  <!-- ==================== Scroll to Top start ==================== -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+  <!-- ==================== Scroll to Top End Here ==================== -->
+<!--==========================   Header Start  ==========================-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-main">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo/logo.png" alt="logo" class="logo-img logo-black"> 
+            </a>
+            <div class="right-nav"> 
+                <ul class="header-login flex-align gap-3 d-none d-sm-flex">
+                    <li class="nav-item">
+                        <div class="dropdown-lang dropdown">
+                            <a href="#" class="language-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="flag" src="assets/images/language/us.png" alt="us">
+                                <span class="language-text">English</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><img class="flag" src="assets/images/language/us.png" alt="us"> English </a> </li>
+                                <li><a href="#"><img class="flag" src="assets/images/language/in.png" alt="in"> Hindi </a></li>
+                                <li><a href="#"><img class="flag" src="assets/images/language/bd.png" alt="bd"> Bangla </a></li>
+                            </ul>
+                        </div>
+                    </li> 
+                    <li class="header-login__item d-flex gap-2">
+                        <a href="login.html" class="btn btn--base"> 
+                            Sign up 
+                        </a>
+                    </li>             
+                </ul> 
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="index.html" class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="assets/images/logo/logo.png" alt="logo" class="logo-img">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="d-flex d-sm-none gap-4 pt-3 justify-content-center"> 
+                    <ul class="header-login flex-align gap-3">
+                        <li class="nav-item">
+                            <div class="dropdown-lang dropdown">
+                                <a href="#" class="language-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="flag" src="assets/images/language/us.png" alt="us">
+                                    <span class="language-text">English</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><img class="flag" src="assets/images/language/us.png" alt="us"> English </a> </li>
+                                    <li><a href="#"><img class="flag" src="assets/images/language/in.png" alt="in"> Hindi </a></li>
+                                    <li><a href="#"><img class="flag" src="assets/images/language/bd.png" alt="bd"> Bangla </a></li>
+                                </ul>
+                            </div>
+                        </li> 
+                        <li class="header-login__item d-flex gap-2">
+                            <a href="login.html" class="btn btn--base">
+                                <i class="fa-solid fa-user"></i>
+                                Login 
+                            </a>
+                        </li>
+                    </ul> 
+                </div> 
+                <div class="offcanvas-body align-items-center">
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="ai-template.html">AI template</a>
+                        </li>  
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--==========================  Header End  ==========================-->
+<main>
+    <!-- ==================== Breadcrumb Start Here ==================== -->
+<section class="breadcrumb py-120 bg-img" data-background-image="assets/images/banner/breadcrumb-bg.png">
+    <div class="container position-relative">
+        <div class="breadcrumb-shape">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="breadcrumb__wrapper">
+                    <h2 class="breadcrumb__title animate" data-direction="down"> Reach Out Anytime - Our Team is Here to Answer Questions, Provide Support, and Guide Your Success.</h2>
+                    <ul class="breadcrumb__list animate" data-direction="down">
+                        <li class="breadcrumb__item"><a href="index.html" class="breadcrumb__link"> Home</a> </li>
+                        <li class="breadcrumb__item">/</li>
+                        <li class="breadcrumb__item"> <span class="breadcrumb__item-text"> Contact </span> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Breadcrumb End Here ==================== -->  
+    <!-- ==========================  Contact-support Section Start  ========================== -->
+<section class="contact-support-section my-120">
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-lg-6">
+        <div class="contact-support-content">
+          <div class="section-title">
+            <span class="btn btn--base btn--section animate" data-direction="down">contact with us</span>
+            <h2 class="main-title animate" data-direction="down">Get in Touch with Our Expert
+              Team for Better Growth... </h2>
+            <p class="animate" data-direction="down">Get in touch with our expert team and unlock the potential of
+              AI-powered SEO content writing. Whether you need guidance, support, or strategies to grow your business,
+              we’re here to help. Together, we’ll create smarter solutions that drive better growth and lasting results.
+            </p>
+          </div>
+          <div class="contact-support-info">
+            <div class="contact-support-info-item">
+              <div class="d-flex align-items-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M0.991058 15.8587L7.66611 11.0907C8.06751 10.804 8.54844 10.6499 9.0417 10.6499H14.6084C15.1118 10.6499 15.6021 10.8105 16.008 11.1082L22.6996 16.0163C23.3074 16.462 23.6665 17.1709 23.6665 17.9246V21.2998C23.6665 22.6069 22.607 23.6665 21.2999 23.6665H2.36665C1.05958 23.6665 0 22.6069 0 21.2998V17.7844C0 17.0201 0.369114 16.3029 0.991058 15.8587Z" fill="#D7D6FB"></path>
+                  <path d="M11.8332 20.1165C13.7938 20.1165 15.3832 18.5272 15.3832 16.5666C15.3832 14.606 13.7938 13.0166 11.8332 13.0166C9.87258 13.0166 8.2832 14.606 8.2832 16.5666C8.2832 18.5272 9.87258 20.1165 11.8332 20.1165Z" fill="currentColor"></path>
+                  <path d="M15.576 6.91432C15.6264 7.2043 15.8034 7.46043 16.0633 7.61944L20.7569 10.4921C21.1698 10.7448 21.7119 10.6895 22.059 10.3592L22.1953 10.2295C24.1569 8.36306 24.1569 5.33696 22.1953 3.47053C21.9859 3.27136 21.7584 3.08834 21.512 2.93215C15.3597 -0.968325 8.32925 -0.978561 2.17124 2.90862C1.92109 3.06652 1.69024 3.25194 1.47799 3.4539C-0.492664 5.32892 -0.492664 8.36892 1.478 10.2439L1.5989 10.3589C1.94612 10.6893 2.48846 10.7446 2.90138 10.4917L7.6007 7.61425C7.85543 7.45826 8.03076 7.20874 8.08488 6.92515L8.507 4.71323C8.54702 4.50351 8.7173 4.33741 8.93786 4.30009C10.8656 3.97384 12.8417 3.97916 14.766 4.31203C14.9887 4.35054 15.1593 4.5202 15.1963 4.73265L15.576 6.91432Z" fill="currentColor"></path>
+                </svg>
+                <h5>Phone</h5>
+              </div>
+              <p>Feel free to call us directly at</p>
+              <a href="tel:+1234567890">+005 - 8888 - 9999</a>
+            </div>
+            <div class="contact-support-info-item">
+              <div class="d-flex align-items-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="23" viewBox="0 0 29 23" fill="none">
+                  <path d="M25.12 20.6724L14.8492 13.4224C14.6402 13.2748 14.3609 13.2748 14.152 13.4224L3.88119 20.6724C3.7205 20.7857 3.62489 20.97 3.625 21.1666V21.7708C3.62494 22.1045 3.89546 22.375 4.22913 22.375H24.7708C25.1045 22.375 25.375 22.1045 25.375 21.7708V21.1666C25.3753 20.9703 25.2802 20.7859 25.12 20.6724Z" fill="#C9C7FA"></path>
+                  <path d="M14.8492 13.4224L4.57838 6.17244C4.30611 5.97958 3.92899 6.04398 3.73613 6.31625C3.66357 6.41865 3.62472 6.54111 3.625 6.66663V21.1666C3.62432 21.5003 3.89433 21.7713 4.228 21.772C4.35351 21.7722 4.47597 21.7334 4.57838 21.6609L14.8492 14.4109C15.1218 14.2185 15.1868 13.8415 14.9944 13.5689C14.9547 13.5126 14.9055 13.4634 14.8492 13.4237V13.4224Z" fill="#D7D6FB"></path>
+                  <path d="M25.0488 6.13018C24.8479 6.02755 24.6069 6.0438 24.4217 6.17249L14.1509 13.4225C13.8782 13.6149 13.8132 13.9918 14.0056 14.2645C14.0454 14.3208 14.0945 14.3699 14.1509 14.4097L24.4217 21.6597C24.6939 21.8525 25.0711 21.7881 25.2639 21.5159C25.3362 21.4138 25.375 21.2918 25.375 21.1667V6.66668C25.375 6.44091 25.2492 6.234 25.0488 6.13018Z" fill="#D7D6FB"></path>
+                  <path d="M26.553 1.04069C26.4715 0.792656 26.2401 0.625 25.9791 0.625H3.02069C2.68702 0.625 2.4165 0.895516 2.4165 1.22919C2.4165 1.41933 2.50605 1.59843 2.65819 1.7125L14.1374 10.1708C14.3505 10.3277 14.6409 10.3277 14.8539 10.1708L26.3331 1.7125C26.5434 1.55929 26.632 1.2886 26.553 1.04069Z" fill="#D7D6FB"></path>
+                  <path d="M25.9792 0.625C25.8485 0.625 25.7212 0.667424 25.6167 0.745815L14.5 8.93713L3.38331 0.745815C3.27876 0.667424 3.15154 0.625 3.02081 0.625C1.35246 0.625 0 1.97746 0 3.64581V19.3541C0 21.0225 1.35246 22.375 3.02081 22.375H4.22913C4.5628 22.375 4.83331 22.1045 4.83331 21.7708V7.83269L14.1508 14.4109C14.3597 14.5585 14.639 14.5585 14.8479 14.4109L24.1666 7.83269V21.7708C24.1666 22.1045 24.4371 22.375 24.7708 22.375H25.9791C27.6475 22.375 29 21.0225 29 19.3542V3.64581C29 1.97746 27.6475 0.625 25.9792 0.625Z" fill="currentColor"></path>
+                </svg>
+                <h5>Email</h5>
+              </div>
+              <p>Our friendly team is here to help.</p>
+              <a href="mailto:support@gmail.com">support@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 d-none d-lg-block">
+        <div class="contact-support-image d-grid gap-4 ms-xxl-5">
+          <div class="d-flex gap-4">
+            <img src="assets/images/contact/1.png" alt="contact support">
+            <img src="assets/images/contact/2.png" alt="contact support">
+          </div>
+          <div class="d-flex align-items-start gap-4">
+            <img src="assets/images/contact/3.png" alt="contact support">
+            <div class="support-number">
+              <img src="assets/images/contact/4.png" alt="contact support">
+              <div class="support-number-content">
+                <h6>Hotline :</h6>
+                <a href="tel:+00588889999">+005 - 8888 - 9999</a>
+                <br>
+                <a href="tel:+00588889999">+005 - 6666 - 2222</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="76" height="74" viewBox="0 0 76 74" fill="none">
+                  <circle cx="59.5" cy="59.5" r="48" stroke="currentColor" stroke-width="23"></circle>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ==========================  Contact-support Section End  ========================== -->  
+    <!-- ==========================  Get-touch Section Start  ========================== -->
+<section class="get-touch-section py-120">
+  <div class="get-touch-shape">
+    <img src="assets/images/contact/bg-shape.png" alt="get touch">
+  </div>
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-lg-6 col-xl-7">
+        <div class="get-touch-content">
+          <div class="get-touch-content__item mb-auto text-center text-lg-start">
+            <h2>Share Your Messages &amp; Well Respond from the Support Team</h2>
+            <p>Share your messages &amp; we’ll respond from the support team contact our support team anytime—share your queries and get quick, helpful responses.</p>
+          </div>
+          <div class="get-touch-content__item mt-auto">
+            <div class="partner-logo-content">
+              <h6>Our Trusted Partner</h6>
+              <div class="d-flex flex-wrap gap-4 justify-content-center align-items-center">
+                <div class="partner-logo-content__item">
+                  <img src="assets/images/brands/brands1.png" alt="partner"> 
+                </div>
+                <div class="partner-logo-content__item">
+                  <img src="assets/images/brands/brands3.png" alt="partner"> 
+                </div>
+                <div class="partner-logo-content__item">
+                  <img src="assets/images/brands/brands2.png" alt="partner"> 
+                </div> 
+                <div class="partner-logo-content__item">
+                  <img src="assets/images/brands/brands4.png" alt="partner"> 
+                </div>
+                <div class="partner-logo-content__item">
+                  <img src="assets/images/brands/brands8.png" alt="partner"> 
+                </div>
+                <div class="partner-logo-content__item">
+                  <img src="assets/images/brands/brands5.png" alt="partner"> 
+                </div>
+                <div class="partner-logo-content__item">
+                  <img src="assets/images/brands/brands6.png" alt="partner"> 
+                </div>
+                <div class="partner-logo-content__item">
+                  <img src="assets/images/brands/brands7.png" alt="partner"> 
+                </div> 
+                <div class="partner-logo-content__item">
+                  <img src="assets/images/brands/brands9.png" alt="partner"> 
+                </div> 
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="col-lg-6 col-xl-5">
+        <div class="get-touch-form ms-xl-5">
+          <h3>Get in touch</h3>
+          <form action="#">
+            <div class="row gy-3">
+              <div class="col-sm-6">
+                <label for="name" class="form--label">Fast Name</label>
+                <input type="text" class="form--control" id="name" placeholder="Fast Name">
+              </div>
+              <div class="col-sm-6">
+                <label for="nameLast" class="form--label">Last Name</label>
+                <input type="text" class="form--control" id="nameLast" placeholder="Last Name">
+              </div>
+              <div class="col-sm-12">
+                <label for="email" class="form--label">Email address</label>
+                <input type="email" class="form--control" id="email" placeholder="Email address">
+              </div>
+              <div class="col-sm-12">
+                <label for="phone" class="form--label">Phone</label>
+                <div class="input--group d-flex align-items-center">
+                  <select name="" class="select2">
+                    <option value="">+088</option>
+                    <option value="">+099</option>
+                    <option value="">+077</option>
+                    <option value="">+066</option>
+                    <option value="">+055</option>
+                    <option value="">+044</option>
+                    <option value="">+033</option>
+                    <option value="">+022</option>
+                  </select>
+                  <input type="text" class="form--control" id="phone" placeholder="Phone number">
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <label for="message" class="form--label">Message</label>
+                <textarea class="form--control" id="message" rows="4" placeholder="How to work?"></textarea>
+              </div>
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn--base w-100 rounded-3">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ==========================  Get-touch Section End  ========================== -->
+  
+</main>
+<!-- Footer -->
+<!-- ==================== Footer Start Here ==================== -->
+<footer class="footer-area">
+    <div class="pb-60 pt-120">
+        <div class="container">
+            <div class="row justify-content-center gy-5">
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <div class="footer-item">
+                        <div class="footer-item__logo">
+                            <a href="index.html"> <img src="assets/images/logo/logo.png" alt=""></a>
+                        </div>
+                        <p class="footer-item__desc"> Founded in 1998, we are a pioneering company specializing in
+                            AI-powered SEO content writing. With decades of experience, we combine advanced technology
+                            and proven strategies to deliver high-quality. </p>
+
+                        <ul class="social-list-two">
+                            <li class="social-list-two__item">
+                                <a href="https://www.facebook.com" class="social-list-two__link flex-center">
+                                    <i class="fab fa-facebook-f"></i>facebook
+                                </a>
+                            </li>
+                            <li class="social-list-two__item">
+                                <a href="https://www.twitter.com" class="social-list-two__link flex-center">
+                                    <i class="fa-brands fa-x-twitter"></i>Twitter
+                                </a>
+                            </li>
+                            <li class="social-list-two__item">
+                                <a href="https://www.linkedin.com" class="social-list-two__link flex-center">
+                                    <i class="fab fa-linkedin-in"></i>linkedin
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- <ul class="social-list">
+                            <li class="social-list__item"><a href="https://www.facebook.com" class="social-list__link flex-center"><i class="fab fa-facebook-f"></i></a> </li>
+                            <li class="social-list__item"><a href="https://www.twitter.com" class="social-list__link flex-center active"> <i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li class="social-list__item"><a href="https://www.linkedin.com" class="social-list__link flex-center"> <i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="social-list__item"><a href="https://www.pinterest.com" class="social-list__link flex-center"> <i class="fab fa-instagram"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-xsm-6">
+                    <div class="footer-item">
+                        <h5 class="footer-item__title">Userful Link</h5>
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">About Us </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Campaign </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">How to work</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Latest News</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-xsm-6">
+                    <div class="footer-item">
+                        <h5 class="footer-item__title">Use Case</h5>
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Digital Marketing </a>
+                            </li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Bloggers &amp; Writers </a>
+                            </li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">e-Commerce</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Education</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link">E- commerces</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <div class="footer-item ps-xl-5">
+                        <span class="btn btn--base btn--section">News latter</span>
+                        <h5 class="footer-item__title">Subscribe news latter</h5>
+                        <form action="#" class="footer-form">
+                            <input type="email" class="form--control" placeholder="Enter your email">
+                            <button type="submit" class="btn btn--base btn--section">
+                                <i class="fa-regular fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Top End-->
+
+    <!-- bottom Footer -->
+    <div class="container">
+        <div class="bottom-footer">
+            <div class="row gy-3">
+                <div class="col-md-12 text-center">
+                    <p class="bottom-footer-text"> © Copyright 2025 . All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ==================== Footer End Here ==================== -->
+
+<!-- Jquery js -->
+<script src="assets/js/jquery-3.7.1.min.js"></script> 
+<!-- Bootstrap Bundle Js -->
+<script src="assets/js/boostrap.bundle.min.js"></script>
+<!-- Gsap -->
+<script src="assets/js/gsap.min.js"></script>
+<!-- Scroll Trigger -->
+<script src="assets/js/ScrollTrigger.min.js"></script> 
+<!-- Swiper js -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<!-- Fancybox -->
+<script src="assets/js/fancybox.umd.js"></script> 
+<!-- Select2 -->
+<script src="assets/js/select2.min.js"></script>
+<!-- Apexcharts -->
+<script src="assets/js/apexcharts.min.js"></script> 
+
+ <!-- main js -->
+ <script src="assets/js/main.js"></script>
+
+</body></html>
